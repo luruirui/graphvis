@@ -7,9 +7,12 @@
 #' @export
 
 # 安装htmlwidgets包
+
 if (not 'htmlwidgets' %in% installed.packages()){
-  install.package('htmlwidgets')
+  install.packages('htmlwidgets')
 }
+
+library(htmlwidgets)
 
 graphvis <- function(links, nodes, width = NULL, height = NULL, elementId = NULL) {
 
