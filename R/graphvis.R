@@ -8,7 +8,7 @@
 
 # 安装htmlwidgets包
 
-if (not 'htmlwidgets' %in% installed.packages()){
+if (! 'htmlwidgets' %in% installed.packages()){
   install.packages('htmlwidgets')
 }
 
