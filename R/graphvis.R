@@ -1,7 +1,3 @@
-if (! require('htmlwidgets')){
-      install.packages('htmlwidgets')
-    }
-
 #' <Add Title>
 #'
 #' <Add Description>
